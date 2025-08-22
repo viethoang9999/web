@@ -1,0 +1,74 @@
+/* --- General Styles --- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333;
+    margin: 40px; /* Add some space around the content */
+}
+
+main {
+    background-color: #ffffff; /* White content box */
+    max-width: 500px;
+    margin: auto; /* This centers the box */
+    padding: 30px 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* --- Form Styles --- */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block; /* Makes the label take up its own line */
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 100%; /* Make input fields fill the container */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff; /* Professional blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.2s; /* Smooth hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* --- Thank You Page Specifics --- */
+.user-info {
+    text-align: left; /* Align text to the left for this section */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
